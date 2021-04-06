@@ -1,0 +1,37 @@
+Hurdles don't affect Dino (Immortal):
+-------------------------------------
+Runner.instance_.gameOver = () => {}
+Runner.prototype.gameOver = () => {}
+
+__________________________________________________
+
+Increase Dino and Score's Speed:
+--------------------------------
+Runner.instance_.setSpeed(x)
+
+__________________________________________________
+
+Higher Jump:
+------------
+Runner.instance_.tRex.setJumpVelocity(10)
+
+__________________________________________________
+
+Gravity Cheat:
+--------------
+Runner.instance_.tRex.config.GRAVITY = 0.0001
+
+__________________________________________________
+
+Intro Cheat:
+------------
+Runner.instance_.playingIntro = true
+Runner.instance_.playingIntro = false
+
+__________________________________________________
+
+Height Cheat:
+-------------
+Runner.instance_.tRex.config.HEIGHT = 100000000000000000000000000000000000000000000000000
+
+__________________________________________________
