@@ -1,5 +1,5 @@
 ## Chrome Dino Game (T-Rex Dinosaur Game)
-### JavaScript Codes – Dino Game Hacks <br><br>
+### JavaScript Codes – [Dino Game Hacks](https://youtu.be/ATuFgKvgzJ0) <br><br>
 
 - #### Hurdles don't affect Dino (Immortal):
 Runner.instance_.gameOver = () => {} <br>
