@@ -1,7 +1,9 @@
 Hurdles don't affect Dino (Immortal):
 -------------------------------------
+Change Logic => Do Nothing When Game is Over.
 Runner.instance_.gameOver = () => {}
 Runner.prototype.gameOver = () => {}
+Runner.prototype.gameOver = function() {}
 
 __________________________________________________
 
