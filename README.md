@@ -2,8 +2,9 @@
 ### JavaScript Codes – [Dino Game Hacks](https://youtu.be/ATuFgKvgzJ0 "YouTube Video") <br><br>
 
 - #### Hurdles don't affect Dino (Immortal):
+_Change Logic => Do Nothing When Game is Over._ <br>
 Runner.instance_.gameOver = () => {} <br>
-Runner.prototype.gameOver = () => {}
+Runner.prototype.gameOver = () => {} &nbsp; &nbsp; OR &nbsp; &nbsp; Runner.prototype.gameOver = function() {}
 - #### Increase Dino and Score's Speed:
 Runner.instance_.setSpeed(x)
 - #### Higher Jump:
