@@ -17,6 +17,8 @@ Runner.instance_.playingIntro = false
 - #### Height Cheat:
 Runner.instance_.tRex.config.HEIGHT = 100000000000000000000000000000000000000000000000000
 
+**_To Make Any Website's Content Editable => Type following Code in Inspect-Console_** <br>
+`document.body.contentEditable = true`
 </br><br>
 
 >💻 &ldquo;PROGRAMMING is Just a Game of L0GIC.&rdquo; 🧐 <br>If You can Create a L0GIC, then You can Convert Your Imaginations into Reality.
