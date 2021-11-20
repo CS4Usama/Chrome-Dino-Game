@@ -3,19 +3,21 @@
 
 - #### Hurdles don't affect Dino (Immortal):
 _Change Logic => Do Nothing When Game is Over._ <br>
-Runner.instance_.gameOver = () => {} <br>
-Runner.prototype.gameOver = () => {} &nbsp; &nbsp; OR &nbsp; &nbsp; Runner.prototype.gameOver = function() {}
+`Runner.instance_.gameOver = () => {}` <br>
+`Runner.prototype.gameOver = () => {}` &nbsp; &nbsp; OR &nbsp; &nbsp; `Runner.prototype.gameOver = function() {}`
 - #### Increase Dino and Score's Speed:
-Runner.instance_.setSpeed(x)
+`Runner.instance_.setSpeed(x)`
 - #### Higher Jump:
-Runner.instance_.tRex.setJumpVelocity(10)
+`Runner.instance_.tRex.setJumpVelocity(10)`
 - #### Gravity Cheat:
-Runner.instance_.tRex.config.GRAVITY = 0.0001
+`Runner.instance_.tRex.config.GRAVITY = 0.0001`
 - #### Intro Cheat:
-Runner.instance_.playingIntro = true <br>
-Runner.instance_.playingIntro = false
+`Runner.instance_.playingIntro = true` <br>
+`Runner.instance_.playingIntro = false`
 - #### Height Cheat:
-Runner.instance_.tRex.config.HEIGHT = 100000000000000000000000000000000000000000000000000
+`Runner.instance_.tRex.config.HEIGHT = 100000000000000000000000000000000000000000000000000`
+
+---
 
 **_To Make Any Website's Content Editable => Type following Code in Inspect-Console_** <br>
 `document.body.contentEditable = true`
