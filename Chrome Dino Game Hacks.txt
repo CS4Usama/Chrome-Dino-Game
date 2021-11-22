@@ -1,3 +1,9 @@
+Start Game without Cut Internet Connection:
+-------------------------------------------
+chrome://dino
+
+__________________________________________________
+
 Hurdles don't affect Dino (Immortal):
 -------------------------------------
 Change Logic => Do Nothing When Game is Over.
@@ -37,3 +43,15 @@ Height Cheat:
 Runner.instance_.tRex.config.HEIGHT = 100000000000000000000000000000000000000000000000000
 
 __________________________________________________
+
+Starting from Any Score Cheat:
+------------------------------
+Runner.instance_.distanceRan = 999 / Runner.instance_.distanceMeter.config.COEFFICIENT
+
+__________________________________________________
+
+To Make Any Website's Content Editable => Type following Code in Inspect-Console
+document.body.contentEditable = true
+
+__________________________________________________
+
